@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <OutputType>Library</OutputType>
+    <RootNamespace>BomEtlAddin</RootNamespace>
+    <AssemblyName>BomEtlAddin</AssemblyName>
+    <ComVisible>true</ComVisible>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="SolidWorks.Interop.sldworks" />
+    <Reference Include="SolidWorks.Interop.swconst" />
+    <Reference Include="System.Data" />
+  </ItemGroup>
+</Project>
